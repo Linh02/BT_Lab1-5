@@ -1,0 +1,18 @@
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Khai báo, tạo mới 2 đối tượng
+		SanPham sp1 = new SanPham(null, 0, 0);
+		SanPham sp2 = new SanPham();
+		//Nhập dl
+		sp1.nhap();
+		sp2.nhap();
+		//Xuất thông tin
+		sp1.xuat();
+		sp2.xuat();
+		
+	}
+
+}

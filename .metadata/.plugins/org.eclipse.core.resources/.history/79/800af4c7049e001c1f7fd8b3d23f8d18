@@ -1,0 +1,28 @@
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Khai báo, tạo mới 2 đối tượng
+//		SanPham sp1 = new SanPham(null, 0, 0);
+//		SanPham sp2 = new SanPham(null, 0, 0);
+		HangHoa hh1 = new HangHoa("bút bi", 2000);
+		HangHoa hh2 = new HangHoa("bút chì", 1000);
+		//Nhập dl
+//		sp1.nhap();
+//		sp2.nhap();
+		//Xuất thông tin
+		
+		System.out.println("tên sản phẩm: " + hh1.getTenHH() );
+		System.out.println("giá sản phẩm: " + hh1.getDonGia());
+		System.out.println("Giảm giá: " + hh1.getGiamGia());
+		System.out.println("Thuế nhập khẩu: " + hh1.getDonGia()*0.1);
+		
+		System.out.println("tên sản phẩm: " + hh2.getTenHH() );
+		System.out.println("giá sản phẩm: " + hh2.getDonGia());
+		System.out.println("Giảm giá: " + hh2.getGiamGia());
+		System.out.println("Thuế nhập khẩu: " + hh2.getDonGia()*0.1);
+		
+	}
+
+}
